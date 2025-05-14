@@ -16,7 +16,7 @@ const httpServer = http.createServer(app);
 const httpsServer = https.createServer(credentials, app);
 app.use(express.static('public'));
 httpServer.listen(8080);
-console.log("Node.js Express HTTP Server Listening on http//:localhost:8080");
+console.log('Node.js Express HTTP Server Listening on http://localhost:8080');
 httpsServer.listen(8443);
-console.log("Node.js Express HTTPS Server Listening on https//:localhost:8443");
+console.log('Node.js Express HTTPS Server Listening on https://localhost:8443');
 
